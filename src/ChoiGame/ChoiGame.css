@@ -1,0 +1,91 @@
+.game-container{
+    margin: 0px 400px;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    background-color: green;
+    transform-origin: center; /* Thu nhỏ từ giữa */
+    transform: scale(0.8);
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.h2{
+    color:white;
+    background-color: purple;
+    padding: 20px 40px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.btShuffle{
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: darkgreen; 
+    color: white;
+    border-style: solid;
+    border-color: white;
+    
+}
+.btDraw{
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: orange; 
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+.btReveal{
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: black; 
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+.btReset{
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: red; 
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+.div3{
+
+        display: flex;
+        justify-content: center;
+}
+.btArea{
+    display: flex;
+    gap:15px;
+}
+.bt{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
