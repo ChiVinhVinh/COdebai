@@ -1,29 +1,6 @@
 import React from "react";
 import "./Player.css";
-interface PlayerStatus {
-  nhacai: boolean;
-  win: boolean;
-  lose: boolean;
-  hoa: boolean;
-}
-
-interface Card {
-  image: string;
-  value: string;
-}
-
-interface PlayerData {
-  point: number;
-  cards: Card[];
-}
-
-interface PlayerProps {
-  playerData: PlayerData;
-  name: string;
-  coins: number;
-  status: PlayerStatus;
-  isRevealed: boolean;
-}
+import { PlayerProps } from "./type";
 const Player = (props: PlayerProps) => {
   return (
     <div className="contai">

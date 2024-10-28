@@ -2,7 +2,30 @@ export interface TDeck {
   deckId: string | null;
   deckCard: number | null;
 }
+interface PlayerStatus {
+  nhacai: boolean;
+  win: boolean;
+  lose: boolean;
+  hoa: boolean;
+}
 
+interface Card {
+  image: string;
+  value: string;
+}
+
+interface PlayerData {
+  point: number;
+  cards: Card[];
+}
+
+export interface PlayerProps {
+  playerData: PlayerData;
+  name: string;
+  coins: number;
+  status: PlayerStatus;
+  isRevealed: boolean;
+}
 export interface TPlayerStatus {
   nhacai: boolean;
   win: boolean;
