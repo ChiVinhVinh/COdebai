@@ -5,7 +5,7 @@
     border-style: solid;
     border-color: black;
     background-color: green;
-    transform-origin: center; /* Thu nhỏ từ giữa */
+    transform-origin: center;
     transform: scale(0.8);
 }
 .div2{
