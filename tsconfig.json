@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Hoặc phiên bản ES phù hợp
+    "module": "commonjs",
+    "strict": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "jsx": "react-jsx",
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*"]
+}
